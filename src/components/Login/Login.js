@@ -10,8 +10,8 @@ const mapDispatchToProps = {
 };
 
 const LoginComponent = ({loginAction}) => {
-  const [email, setEmail] = React.useState('johan.pesquer@gmail.com');
-  const [password, setPassword] = React.useState('azerty');
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
   const [error, setError] = React.useState('');
   const history = useHistory();
   const submitForm = (e) => {
